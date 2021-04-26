@@ -1,0 +1,49 @@
+CRITICAL - 2021-04-24 14:26:39 --> Undefined variable $aluno
+#0 C:\xampp\htdocs\atividadedelta\app\Views\alunos_form.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\atividadedelta\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\atividadedelta\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\atividadedelta\system\Common.php(1217): CodeIgniter\View\View->render('alunos_form', Array, true)
+#4 C:\xampp\htdocs\atividadedelta\app\Controllers\Alunos.php(25): view('alunos_form', Array)
+#5 C:\xampp\htdocs\atividadedelta\system\CodeIgniter.php(936): App\Controllers\Alunos->inserir()
+#6 C:\xampp\htdocs\atividadedelta\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+#7 C:\xampp\htdocs\atividadedelta\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\atividadedelta\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-24 14:38:41 --> Attempt to assign property "nome" on null
+#0 C:\xampp\htdocs\atividadedelta\system\CodeIgniter.php(936): App\Controllers\Alunos->editar('salvar')
+#1 C:\xampp\htdocs\atividadedelta\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+#2 C:\xampp\htdocs\atividadedelta\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\atividadedelta\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-24 14:42:18 --> Attempt to assign property "nome" on null
+#0 C:\xampp\htdocs\atividadedelta\system\CodeIgniter.php(936): App\Controllers\Alunos->editar('salvar')
+#1 C:\xampp\htdocs\atividadedelta\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+#2 C:\xampp\htdocs\atividadedelta\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\atividadedelta\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-24 14:44:43 --> Attempt to assign property "nome" on null
+#0 C:\xampp\htdocs\atividadedelta\system\CodeIgniter.php(936): App\Controllers\Alunos->editar('salvar')
+#1 C:\xampp\htdocs\atividadedelta\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+#2 C:\xampp\htdocs\atividadedelta\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\atividadedelta\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-24 14:46:45 --> Attempt to assign property "nome" on null
+#0 C:\xampp\htdocs\atividadedelta\system\CodeIgniter.php(936): App\Controllers\Alunos->editar('salvar')
+#1 C:\xampp\htdocs\atividadedelta\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+#2 C:\xampp\htdocs\atividadedelta\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\atividadedelta\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-24 15:01:18 --> Unclosed '{' on line 88 does not match ')'
+#0 C:\xampp\htdocs\atividadedelta\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('alunos/editar/8')
+#1 C:\xampp\htdocs\atividadedelta\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('alunos/editar/8')
+#2 C:\xampp\htdocs\atividadedelta\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\atividadedelta\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\atividadedelta\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 15:01:31 --> Unclosed '{' on line 88 does not match ')'
+#0 C:\xampp\htdocs\atividadedelta\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('alunos/editar/8')
+#1 C:\xampp\htdocs\atividadedelta\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('alunos/editar/8')
+#2 C:\xampp\htdocs\atividadedelta\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\atividadedelta\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\atividadedelta\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
